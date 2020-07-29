@@ -1,0 +1,98 @@
+/*Nav Page*/
+
+.nav-page{
+    background-color: #53C2BB;
+    display: block;
+    height: 50px;
+    color: white;
+    padding-top: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/*Left Nav*/
+.logo-nav-page{
+    margin-left: 0px;
+    padding-top: 0px;
+}
+
+.logoPosition-nav-page{
+    float: left
+}
+
+/*Right Nav*/
+.linkPosition-nav-page{
+    float: right;
+}
+
+.ul-link-nav-page{
+    list-style: none; 
+    cursor: pointer;
+    margin-top: -8px;
+    padding-right: 0px;
+}
+
+.li-link-nav-page{
+    float: left;
+    width: 40px;
+}
+
+.span-unread{
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    font-size: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: white;
+    top: -38px;
+    left: 17px;
+}
+
+.span-read{
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+    font-size: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: white;
+    top: -38px;
+    left: 17px;
+    display: none;
+}
+
+.card-UserImage-nav-page{
+    border-radius: 28px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    margin-top: -1px;
+}
+
+.UserImage-nav-page{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.width-UserDataLink-nav-page{
+    width: auto;
+    padding-left: 15px;
+}
+
+.name-UserDataLink-nav-page{
+    font-size: 15px;
+    margin-bottom: -5px;
+    padding-top: 3px;
+}
+
+.username-UserDataLink-nav-page{
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+@media(max-width: 575px){
+    .width-UserDataLink-nav-page{
+        display: none;
+    }
+}
